@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administració - Joc de Banderes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/quartz/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1 class="text-center mb-2">
+            Panell Administració
+        </h1>
+
+        <p class="text-center text-muted mb-3">
+            Gestió del Joc de Banderes
+        </p>
+
+        <div class="row g-4">
+            <!-- VEURE -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">
+                            Veure preguntes
+                        </h3>
+                        <p class="card-text">
+                            Consulta totes les preguntes i les seves respostes.
+                        </p>
+                        <a href="getPreguntes.html"
+                           class="btn btn-primary">
+                            Consultar 
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CREAR -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">
+                            Crear pregunta
+                        </h3>
+                        <p class="card-text">
+                            Afegeix una nova pregunta al joc.
+                        </p>
+                        <a href="admin-crear.html"
+                           class="btn btn-success">
+                            Crear
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- MODIFICAR -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">
+                            Modificar pregunta
+                        </h3>
+                        <p class="card-text">
+                            Modifica una pregunta existent.
+                        </p>
+                        <a href="admin-modificar.html"
+                           class="btn btn-warning">
+                            Edita
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ELIMINAR -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">
+                            Eliminar pregunta
+                        </h3>
+                        <p class="card-text">
+                            Elimina una pregunta del joc.
+                        </p>
+                        <a href="admin-eliminar.html"
+                           class="btn btn-danger">
+                            Eliminar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text-center mt-4 mb-5">
+            <a href="/" class="btn btn-secondary">
+                Tornar al joc
+            </a>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+
+</html>

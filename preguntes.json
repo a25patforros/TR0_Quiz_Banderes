@@ -1,0 +1,1154 @@
+{
+  "preguntes": [
+    {
+      "id": 683,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Nepal"
+        },
+        {
+          "id": 2,
+          "resposta": "Bhutan"
+        },
+        {
+          "id": 3,
+          "resposta": "Mongòlia"
+        },
+        {
+          "id": 4,
+          "resposta": "Sri Lanka"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/bt.png"
+    },
+    {
+      "id": 217,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Lesotho"
+        },
+        {
+          "id": 2,
+          "resposta": "Malawi"
+        },
+        {
+          "id": 3,
+          "resposta": "Eswatini"
+        },
+        {
+          "id": 4,
+          "resposta": "Namíbia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/sz.png"
+    },
+    {
+      "id": 954,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Kiribati"
+        },
+        {
+          "id": 2,
+          "resposta": "Maurici"
+        },
+        {
+          "id": 3,
+          "resposta": "Tonga"
+        },
+        {
+          "id": 4,
+          "resposta": "Belize"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/ki.png"
+    },
+    {
+      "id": 341,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Palau"
+        },
+        {
+          "id": 2,
+          "resposta": "Nauru"
+        },
+        {
+          "id": 3,
+          "resposta": "Micronèsia"
+        },
+        {
+          "id": 4,
+          "resposta": "Cap Verd"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/pw.png"
+    },
+    {
+      "id": 728,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Samoa"
+        },
+        {
+          "id": 2,
+          "resposta": "Tuvalu"
+        },
+        {
+          "id": 3,
+          "resposta": "Tonga"
+        },
+        {
+          "id": 4,
+          "resposta": "Brunei"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/tv.png"
+    },
+    {
+      "id": 165,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Vanuatu"
+        },
+        {
+          "id": 2,
+          "resposta": "Malawi"
+        },
+        {
+          "id": 3,
+          "resposta": "Papua Nova Guinea"
+        },
+        {
+          "id": 4,
+          "resposta": "Benín"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/vu.png"
+    },
+    {
+      "id": 892,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Comores"
+        },
+        {
+          "id": 2,
+          "resposta": "Maurici"
+        },
+        {
+          "id": 3,
+          "resposta": "Gàmbia"
+        },
+        {
+          "id": 4,
+          "resposta": "Madagascar"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/km.png"
+    },
+    {
+      "id": 406,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Seychelles"
+        },
+        {
+          "id": 2,
+          "resposta": "Illes Salomó"
+        },
+        {
+          "id": 3,
+          "resposta": "Maurici"
+        },
+        {
+          "id": 4,
+          "resposta": "Maldives"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/sc.png"
+    },
+    {
+      "id": 771,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Belize"
+        },
+        {
+          "id": 2,
+          "resposta": "Dominica"
+        },
+        {
+          "id": 3,
+          "resposta": "Grenada"
+        },
+        {
+          "id": 4,
+          "resposta": "Jamaica"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/dm.png"
+    },
+    {
+      "id": 253,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Bahames"
+        },
+        {
+          "id": 2,
+          "resposta": "Barbados"
+        },
+        {
+          "id": 3,
+          "resposta": "Belize"
+        },
+        {
+          "id": 4,
+          "resposta": "Santa Llúcia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/lc.png"
+    },
+    {
+      "id": 619,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Grenada"
+        },
+        {
+          "id": 2,
+          "resposta": "Belize"
+        },
+        {
+          "id": 3,
+          "resposta": "Barbados"
+        },
+        {
+          "id": 4,
+          "resposta": "Guyana"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/gd.png"
+    },
+    {
+      "id": 847,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Antigua i Barbuda"
+        },
+        {
+          "id": 2,
+          "resposta": "Cap Verd"
+        },
+        {
+          "id": 3,
+          "resposta": "Saint Kitts i Nevis"
+        },
+        {
+          "id": 4,
+          "resposta": "Barbados"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/ag.png"
+    },
+    {
+      "id": 392,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Santa Llúcia"
+        },
+        {
+          "id": 2,
+          "resposta": "Saint Kitts i Nevis"
+        },
+        {
+          "id": 3,
+          "resposta": "Antigua i Barbuda"
+        },
+        {
+          "id": 4,
+          "resposta": "Guatemala"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/kn.png"
+    },
+    {
+      "id": 536,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Saint Vincent i les Grenadines"
+        },
+        {
+          "id": 2,
+          "resposta": "Botswana"
+        },
+        {
+          "id": 3,
+          "resposta": "Grenada"
+        },
+        {
+          "id": 4,
+          "resposta": "Saint Kitts i Nevis"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/vc.png"
+    },
+    {
+      "id": 914,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Guyana"
+        },
+        {
+          "id": 2,
+          "resposta": "Surinam"
+        },
+        {
+          "id": 3,
+          "resposta": "Paraguai"
+        },
+        {
+          "id": 4,
+          "resposta": "Gabon"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/sr.png"
+    },
+    {
+      "id": 278,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Guyana"
+        },
+        {
+          "id": 2,
+          "resposta": "Surinam"
+        },
+        {
+          "id": 3,
+          "resposta": "Trinitat i Tobago"
+        },
+        {
+          "id": 4,
+          "resposta": "Belize"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/gy.png"
+    },
+    {
+      "id": 645,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Belize"
+        },
+        {
+          "id": 2,
+          "resposta": "Hondures"
+        },
+        {
+          "id": 3,
+          "resposta": "Guatemala"
+        },
+        {
+          "id": 4,
+          "resposta": "El Salvador"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/bz.png"
+    },
+    {
+      "id": 183,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Papua Nova Guinea"
+        },
+        {
+          "id": 2,
+          "resposta": "Malàisia"
+        },
+        {
+          "id": 3,
+          "resposta": "Illes Salomó"
+        },
+        {
+          "id": 4,
+          "resposta": "Zàmbia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/pg.png"
+    },
+    {
+      "id": 759,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Vanuatu"
+        },
+        {
+          "id": 2,
+          "resposta": "Illes Salomó"
+        },
+        {
+          "id": 3,
+          "resposta": "Maurici"
+        },
+        {
+          "id": 4,
+          "resposta": "Botswana"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/sb.png"
+    },
+    {
+      "id": 428,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Timor-Leste"
+        },
+        {
+          "id": 2,
+          "resposta": "Indonèsia"
+        },
+        {
+          "id": 3,
+          "resposta": "Moçambic"
+        },
+        {
+          "id": 4,
+          "resposta": "Angola"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/tl.png"
+    },
+    {
+      "id": 967,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Eritrea"
+        },
+        {
+          "id": 2,
+          "resposta": "Djibouti"
+        },
+        {
+          "id": 3,
+          "resposta": "Iemen"
+        },
+        {
+          "id": 4,
+          "resposta": "Somàlia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/dj.png"
+    },
+    {
+      "id": 314,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Eritrea"
+        },
+        {
+          "id": 2,
+          "resposta": "Sudan"
+        },
+        {
+          "id": 3,
+          "resposta": "Etiòpia"
+        },
+        {
+          "id": 4,
+          "resposta": "Djibouti"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/er.png"
+    },
+    {
+      "id": 582,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Ghana"
+        },
+        {
+          "id": 2,
+          "resposta": "Sao Tomé i Príncipe"
+        },
+        {
+          "id": 3,
+          "resposta": "Togo"
+        },
+        {
+          "id": 4,
+          "resposta": "Guinea Equatorial"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/st.png"
+    },
+    {
+      "id": 736,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Malawi"
+        },
+        {
+          "id": 2,
+          "resposta": "Zàmbia"
+        },
+        {
+          "id": 3,
+          "resposta": "Uganda"
+        },
+        {
+          "id": 4,
+          "resposta": "Ruanda"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mw.png"
+    },
+    {
+      "id": 109,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Zàmbia"
+        },
+        {
+          "id": 2,
+          "resposta": "Botswana"
+        },
+        {
+          "id": 3,
+          "resposta": "Malawi"
+        },
+        {
+          "id": 4,
+          "resposta": "Zimbàbue"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/zm.png"
+    },
+    {
+      "id": 861,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Moçambic"
+        },
+        {
+          "id": 2,
+          "resposta": "Zimbàbue"
+        },
+        {
+          "id": 3,
+          "resposta": "Zàmbia"
+        },
+        {
+          "id": 4,
+          "resposta": "Malawi"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/zw.png"
+    },
+    {
+      "id": 475,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Moçambic"
+        },
+        {
+          "id": 2,
+          "resposta": "Angola"
+        },
+        {
+          "id": 3,
+          "resposta": "Tanzània"
+        },
+        {
+          "id": 4,
+          "resposta": "Guinea-Bissau"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mz.png"
+    },
+    {
+      "id": 693,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Gàmbia"
+        },
+        {
+          "id": 2,
+          "resposta": "Guinea-Bissau"
+        },
+        {
+          "id": 3,
+          "resposta": "Senegal"
+        },
+        {
+          "id": 4,
+          "resposta": "Sierra Leone"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/gw.png"
+    },
+    {
+      "id": 246,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Mauritània"
+        },
+        {
+          "id": 2,
+          "resposta": "Cap Verd"
+        },
+        {
+          "id": 3,
+          "resposta": "Senegal"
+        },
+        {
+          "id": 4,
+          "resposta": "Gàmbia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/cv.png"
+    },
+    {
+      "id": 823,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Algèria"
+        },
+        {
+          "id": 2,
+          "resposta": "Mauritània"
+        },
+        {
+          "id": 3,
+          "resposta": "Tunísia"
+        },
+        {
+          "id": 4,
+          "resposta": "Líbia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mr.png"
+    },
+    {
+      "id": 157,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Laos"
+        },
+        {
+          "id": 2,
+          "resposta": "Cambodja"
+        },
+        {
+          "id": 3,
+          "resposta": "Tailàndia"
+        },
+        {
+          "id": 4,
+          "resposta": "Vietnam"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/la.png"
+    },
+    {
+      "id": 548,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Malàisia"
+        },
+        {
+          "id": 2,
+          "resposta": "Brunei"
+        },
+        {
+          "id": 3,
+          "resposta": "Indonèsia"
+        },
+        {
+          "id": 4,
+          "resposta": "Singapur"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/bn.png"
+    },
+    {
+      "id": 902,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Índia"
+        },
+        {
+          "id": 2,
+          "resposta": "Nepal"
+        },
+        {
+          "id": 3,
+          "resposta": "Bhutan"
+        },
+        {
+          "id": 4,
+          "resposta": "Pakistan"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/np.png"
+    },
+    {
+      "id": 371,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Maldives"
+        },
+        {
+          "id": 2,
+          "resposta": "Bangladesh"
+        },
+        {
+          "id": 3,
+          "resposta": "Pakistan"
+        },
+        {
+          "id": 4,
+          "resposta": "Sri Lanka"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mv.png"
+    },
+    {
+      "id": 684,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Bulgària"
+        },
+        {
+          "id": 2,
+          "resposta": "Macedònia del Nord"
+        },
+        {
+          "id": 3,
+          "resposta": "Albània"
+        },
+        {
+          "id": 4,
+          "resposta": "Kosovo"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mk.png"
+    },
+    {
+      "id": 229,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Croàcia"
+        },
+        {
+          "id": 2,
+          "resposta": "Montenegro"
+        },
+        {
+          "id": 3,
+          "resposta": "Sèrbia"
+        },
+        {
+          "id": 4,
+          "resposta": "Eslovènia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/me.png"
+    },
+    {
+      "id": 815,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Kazakhstan"
+        },
+        {
+          "id": 2,
+          "resposta": "Kirguizistan"
+        },
+        {
+          "id": 3,
+          "resposta": "Tadjikistan"
+        },
+        {
+          "id": 4,
+          "resposta": "Mongòlia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/kg.png"
+    },
+    {
+      "id": 463,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Uzbekistan"
+        },
+        {
+          "id": 2,
+          "resposta": "Tadjikistan"
+        },
+        {
+          "id": 3,
+          "resposta": "Kirguizistan"
+        },
+        {
+          "id": 4,
+          "resposta": "Armènia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/tj.png"
+    },
+    {
+      "id": 978,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Uzbekistan"
+        },
+        {
+          "id": 2,
+          "resposta": "Turkmenistan"
+        },
+        {
+          "id": 3,
+          "resposta": "Azerbaidjan"
+        },
+        {
+          "id": 4,
+          "resposta": "Iran"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/tm.png"
+    },
+    {
+      "id": 326,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Nauru"
+        },
+        {
+          "id": 2,
+          "resposta": "Palau"
+        },
+        {
+          "id": 3,
+          "resposta": "Micronèsia"
+        },
+        {
+          "id": 4,
+          "resposta": "Illes Marshall"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/fm.png"
+    },
+    {
+      "id": 744,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Nauru"
+        },
+        {
+          "id": 2,
+          "resposta": "Tuvalu"
+        },
+        {
+          "id": 3,
+          "resposta": "Kiribati"
+        },
+        {
+          "id": 4,
+          "resposta": "Palau"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/nr.png"
+    },
+    {
+      "id": 195,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Fiji"
+        },
+        {
+          "id": 2,
+          "resposta": "Illes Marshall"
+        },
+        {
+          "id": 3,
+          "resposta": "Palau"
+        },
+        {
+          "id": 4,
+          "resposta": "Vanuatu"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mh.png"
+    },
+    {
+      "id": 537,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Tonga"
+        },
+        {
+          "id": 2,
+          "resposta": "Samoa"
+        },
+        {
+          "id": 3,
+          "resposta": "Nova Zelanda"
+        },
+        {
+          "id": 4,
+          "resposta": "Vanuatu"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/ws.png"
+    },
+    {
+      "id": 882,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Samoa"
+        },
+        {
+          "id": 2,
+          "resposta": "Tonga"
+        },
+        {
+          "id": 3,
+          "resposta": "Vanuatu"
+        },
+        {
+          "id": 4,
+          "resposta": "Barbados"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/to.png"
+    },
+    {
+      "id": 263,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Xipre"
+        },
+        {
+          "id": 2,
+          "resposta": "Malta"
+        },
+        {
+          "id": 3,
+          "resposta": "Croàcia"
+        },
+        {
+          "id": 4,
+          "resposta": "Itàlia"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/mt.png"
+    },
+    {
+      "id": 711,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Andorra"
+        },
+        {
+          "id": 2,
+          "resposta": "San Marino"
+        },
+        {
+          "id": 3,
+          "resposta": "Mònaco"
+        },
+        {
+          "id": 4,
+          "resposta": "Liechtenstein"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/sm.png"
+    },
+    {
+      "id": 349,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Luxemburg"
+        },
+        {
+          "id": 2,
+          "resposta": "Liechtenstein"
+        },
+        {
+          "id": 3,
+          "resposta": "Mònaco"
+        },
+        {
+          "id": 4,
+          "resposta": "Andorra"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/li.png"
+    },
+    {
+      "id": 926,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Romania"
+        },
+        {
+          "id": 2,
+          "resposta": "Moldàvia"
+        },
+        {
+          "id": 3,
+          "resposta": "Ucraïna"
+        },
+        {
+          "id": 4,
+          "resposta": "Bulgària"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/md.png"
+    },
+    {
+      "id": 124,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Ghana"
+        },
+        {
+          "id": 2,
+          "resposta": "Sierra Leone"
+        },
+        {
+          "id": 3,
+          "resposta": "Liberia"
+        },
+        {
+          "id": 4,
+          "resposta": "Guinea"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/lr.png"
+    },
+    {
+      "id": 657,
+      "pregunta": "A quin país pertany aquesta bandera?",
+      "respostes": [
+        {
+          "id": 1,
+          "resposta": "Armènia"
+        },
+        {
+          "id": 2,
+          "resposta": "Geòrgia"
+        },
+        {
+          "id": 3,
+          "resposta": "Azerbaidjan"
+        },
+        {
+          "id": 4,
+          "resposta": "Iran"
+        }
+      ],
+      "imatge": "https://flagcdn.com/w320/am.png"
+    }
+  ]
+}

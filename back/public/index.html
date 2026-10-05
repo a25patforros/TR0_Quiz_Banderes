@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Joc de Banderes</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/quartz/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+<!-------------------------------- BENVINGUDA -------------------------------->
+    <div id="benvinguda">
+        <div class="card border-danger mb-3 mx-auto w-50 mt-5" style="max-width: 400px;">
+            <div class="card-header">Joc de Banderes!</div>
+                <div class="card-body">
+                    <h4 class="card-title">Entra:</h4>
+                    <div class="text-center">
+                        <input
+                            type="text"
+                            id="inputNom"
+                            class="form-control mx-auto"
+                            autocomplete="off"
+                            placeholder="Escriu el teu nom">
+                        <button id="btnEnviaNom" class="btn btn-primary mt-3"> Guardar </button>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+<!-------------------------------- JOC -------------------------------->
+    <div id="joc" class="d-none">
+
+        <!-- BARRA SUPERIOR -->
+        <nav class="navbar navbar-expand-lg bg-primary py-1" data-bs-theme="dark"> 
+            <h1 class="py-0 my-0 mx-3 navbar-brand ">Joc de Banderes</h1> 
+            <div class="ms-auto px-3">
+                <button id="btnSortir" class="btn btn-warning btn-sm">Surt</button>
+            </div>
+        </nav>
+
+        <!-- NOM -->
+        <h6 id="nomJugador" class="text-center mt-2 mb-0"></h6>
+
+        <!-- TEMPORITZADOR -->
+        <div id="timer" class=" text-center"> 00:00:00 </div>
+
+        <!-- PROGRES -->
+        <div id="marcador" class="mt-1 w-75 mx-auto gap-1" style="max-width: 800px;"></div>
+
+        <!-- PREGUNTES -->
+
+        <div class="d-flex align-items-center justify-content-center">
+
+            <div class="mx-3">
+                <button id="anterior" class="btn btn-warning">🢘</button>
+            </div>
+
+            <div id="partida" style="width: 580px;"></div>
+
+            <div class="mx-3">
+                <button id="seguent" class="btn btn-warning">🢚</button>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-3">
+            <button id="btnEnviar" class="mb-4 btn btn-success d-none"> Enviar respostes </button>
+        </div>
+    </div>
+
+    <!-- RESULTAT -->
+    <div id="resultat" class="d-none">
+        <div class="card mb-3 my-5 text-center w-50 mx-auto" id="cardResultat" style="height: 350px;">
+            <div class="card-header">Partida finalitzada!</div>
+            <div class="card-body">
+                <h4 class="card-title" id="titleText"></h4>
+                <p class="card-text fs-5" id="resultatText"></p>
+                <div class="my-3 d-flex justify-content-center gap-4">
+                    <button type="button" class="btn btn-primary" id="btnRepetir">🔁 Tornar a intentar</button>
+                    <button type="button" class="btn btn-secondary" id="btnTancar">Sortir</button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    <script src="funcions.js"></script>
+</body>
+</html>

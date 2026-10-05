@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntes - Administració</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/quartz/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <h1 class="text-center mb-3">Preguntes</h1>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Pregunta</th>
+                        <th>Respostes</th>
+                        <th>Imatge</th>
+                    </tr>
+                </thead>
+                <tbody id="taulaPreguntes">
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="text-center mt-2 mb-4">
+            <a href="admin.html" class="btn btn-secondary">
+                Tornar
+            </a>
+        </div>
+
+    </div>
+
+    <script src="admin.js"></script>
+
+    <script>
+        carregarPreguntes();
+    </script>
+
+</body>
+
+</html>
