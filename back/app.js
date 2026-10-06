@@ -1,8 +1,12 @@
+//TODO: MODIFICAR EL FORM DEL NOM PER A QUE FUNCIONI AMB ENTER
+
 const express = require('express');
 const app = express();
 const port = Number(process.argv[2])||30002;
 const fs = require('fs');
 const mysql = require('mysql2/promise');
+const multer = require('multer');
+const upload = multer ({dest: 'uploads/'});
 const sessions = new Map();
 
 const { v4: uuidv4 } = require('uuid');
@@ -10,6 +14,7 @@ const { v4: uuidv4 } = require('uuid');
 let connection;
 
 app.use(express.static('public'));
+app.use('/uploads', express.static('uploads'));
 app.use(express.json());
 
 iniciarServidor(); //Per evitar que la petició arribi abans de tenir la connexió
@@ -154,26 +159,29 @@ app.get("/preguntes", async (req,res) => {
 });
 
 //POST --Crear pregunta
-app.post("/preguntes", async (req, res) => {
+app.post("/preguntes", upload.single("imgBandera"), async (req, res) => {
   try{
-    const preg = req.body;
+    const preg = JSON.parse(req.body.pregunta);
+    const imgBandera = "/uploads/" + req.file.filename;    
+    const nouId = await generarId();
 
     const[resultatPreg] = await connection.query(`
       INSERT INTO preguntes (id, pregunta, imatge)
       VALUES (?, ?, ?)`,
       [
-        preg.id,
+        nouId,
         preg.pregunta,
-        preg.imatge
+        imgBandera
       ]
     );
+
     for (const resposta of preg.respostes) {
       const [resultatRes] = await connection.query(`
         INSERT INTO respostes
         (pregunta_id, resposta_id, resposta, correcta)
         VALUES (?, ?, ?, ?)`,
         [
-          preg.id,
+          nouId,
           resposta.id,
           resposta.resposta,
           resposta.correcta
@@ -182,6 +190,7 @@ app.post("/preguntes", async (req, res) => {
     }
     res.json({ missatge: "Pregunta creada" });
   }catch (error) {
+    console.log(error);
     res.status(500).send("Error creant pregunta");
   }
 });
@@ -274,4 +283,26 @@ function getIdsPreguntes(preguntes){
  }
 
  return idsPreguntes;
+}
+
+//Generar Ids
+async function generarId(){
+    let id;
+    let existe =true;
+
+    while(existe){
+        id= Math.floor(Math.random() * 10000) + 1;
+
+        const[resSql] = await connection.query(
+            `
+            SELECT id FROM preguntes WHERE id = ?
+            `, [id]
+        );
+
+        if(resSql.length == 0){
+            existe = false;
+        }
+    }
+
+    return id;
 }
