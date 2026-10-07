@@ -196,10 +196,16 @@ app.post("/preguntes", upload.single("imgBandera"), async (req, res) => {
 });
  
 //PUT --Modificar pregunta
-app.put("/preguntes/:id", async (req, res) =>{
+app.put("/preguntes/:id", upload.single("imgBandera"), async (req, res) =>{
   try{
     const id = req.params.id;
-    const preg = req.body;
+    const preg = JSON.parse(req.body.pregunta);
+
+    let img = preg.imatge;
+
+    if(req.file){
+      img = "/uploads/" + req.file.filename;
+    }
 
     await connection.query(`
       UPDATE preguntes
@@ -207,7 +213,7 @@ app.put("/preguntes/:id", async (req, res) =>{
       WHERE id = ?`,
       [
         preg.pregunta,
-        preg.imatge,
+        img,
         id
       ]
     );

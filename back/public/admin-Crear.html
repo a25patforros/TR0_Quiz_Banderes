@@ -12,12 +12,12 @@
     </a>
     <h1 class="text-center mt-3">Formulari</h1>
     <div class="card border-light mb-3 w-50 mx-auto mt-2">
-        <div class="card-header">Nova pregunta</div>
+        <div class="card-header" id="titolFormulari"></div>
         <form class="mx-4 mt-2">
             <fieldset>
                 <div>
                     <label for="formFile" class="form-label">Adjunta una imatge</label>
-                    <input class="form-control" type="file" id="formFile" name= "imgBandera" required>
+                    <input class="form-control" type="file" id="formFile" name= "imgBandera">
                 </div>
                 <!-- Respostes -->
                 <div>
@@ -61,7 +61,7 @@
             </fieldset>
 
             <button type="submit" class="btn btn-primary mt-3 mb-4">
-                Crear pregunta
+                Envia
             </button>
         </form>
     </div>
@@ -82,6 +82,27 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" id="tornarPanell">Torna al panell</button>
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnCrearAltra">Crear una altra</button>
+            </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="modalPreguntaEdit" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Pregunta modificada!</h5>
+            </div>
+            <div class="modal-body">
+                <p>
+                    La pregunta s'ha modificat correctament.
+                    <br>
+                    Què vols fer ara?
+                </p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="tornarPanellM">Torna al panell</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnEditAltra">Modifica una altra</button>
             </div>
             </div>
         </div>

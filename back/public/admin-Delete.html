@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar - Administració </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/quartz/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <a href="admin.html" class="position-absolute top-0 end-0 mx-2 text-decoration-none">
+        ← Panell Administració
+    </a>
+
+    <h1 class="text-center mt-3">Eliminar preguntes</h1>
+
+    <div class="container mt-3">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Pregunta</th>
+                        <th>Respostes</th>
+                        <th>Imatge</th>
+                        <th>Esborra</th>
+                    </tr>
+                </thead>
+                <tbody id="taulaPreguntes">
+                </tbody>
+            </table>
+        </div>
+
+        
+        <div class="text-center mt-2 mb-4">
+            <a href="admin.html" class="btn btn-secondary">
+                Tornar
+            </a>
+        </div>
+    </div>
+
+    <!-- MODAL CONFIRMAR ELIMINACIÓ -->
+    <div class="modal fade" id="modalEliminar" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-body">
+                <p>
+                    Segur que vols eliminar aquesta pregunta?
+                </p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnConfirmar">Esborra</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnDeclinar">Cancel·la</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- MODAL PREGUNTA ELIMINADA -->
+    <div class="modal fade" id="modalMissatgeEliminar" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Pregunta eliminada!</h5>
+            </div>
+            <div class="modal-body">
+                <p>
+                    La pregunta s'ha esborrat correctament.
+                    <br>
+                    Què vols fer ara?
+                </p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnTancarDelete" data-bs-dismiss="modal">Seguir eliminant</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnTornarPanellD">Tornar al panell</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="admin.js"></script>
+    <script>
+        carregarPreguntes("eliminar");
+    </script>
+</body>

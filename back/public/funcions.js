@@ -301,8 +301,9 @@ document.getElementById("btnEnviar").addEventListener("click", function(event){
 });
 
 
-document.getElementById("btnEnviaNom").addEventListener("click", function(){
-
+document.getElementById("formNom").addEventListener("submit", function(e){
+  e.preventDefault(); 
+  
   let nomLS = document.getElementById("inputNom").value;
 
   localStorage.setItem("nom", nomLS);
